@@ -7,25 +7,13 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
 
-      .state('login', {
+
+
+  .state('login', {
     url: '/page1',
     templateUrl: 'templates/login.html',
     controller: 'loginCtrl'
-  })
-
-  .state('loginLarer', {
-    url: '/page2',
-    templateUrl: 'templates/loginLarer.html',
-    controller: 'loginLarerCtrl'
-  })
-
-  .state('loginElev', {
-    url: '/page3',
-    templateUrl: 'templates/loginElev.html',
-    controller: 'loginElevCtrl'
   })
 
   .state('dashbordElev', {
@@ -78,6 +66,6 @@ angular.module('app.routes', [])
 
 $urlRouterProvider.otherwise('/page1')
 
-  
+
 
 });

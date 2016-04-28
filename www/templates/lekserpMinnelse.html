@@ -1,11 +1,18 @@
-<ion-view title="Lekserpåminnelse" id="page9" style="background-color:#F1F4ED;">
-    <ion-content padding="true" class="has-header">
+<ion-view title="Lekserpåminnelse" id="page9" class="bg">
+    <div>
+        <ion-nav-bar class="bar-green" align-title="center">
+            <ion-nav-back-button class="button-icon icon ion-ios-arrow-back back-btn"> Back</ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view></ion-nav-view>
+    </div>
+    <ion-content padding="true" class="midposisjon">
+    <!--<ion-content padding="true" class="page-padding mid-position">-->
         <form class="list">
             <label class="item item-input" name="leksernotification">
-                <span class="input-label">Text</span><textarea placeholder="Leksepåminnelse"> </textarea>
+                <span1 style="margin-right: -40px" class="input-label">Text</span1><textarea rows="5" placeholder="Leksepåminnelse"></textarea>
             </label>
         </form>
-        <a ui-sref="dashbordLarer" id="lekserpMinnelse-button19" class="button button-positive  button-block">Submit</a>
-        <a ui-sref="dashbordLarer" id="lekserpMinnelse-button20" class="button button-assertive  button-block">Cancel</a>
+        <a ui-sref="dashbordLarer" id="lekserpMinnelse-button19" class="button button-positive  button-block btn-size">Submit</a>
+        <a ui-sref="dashbordLarer" id="lekserpMinnelse-button20" class="button button-assertive  button-block btn-size">Cancel</a>
     </ion-content>
 </ion-view>
