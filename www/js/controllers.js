@@ -35,3 +35,11 @@ angular.module('app.controllers', [])
 .controller('sOSCtrl', function($scope) {
 
 })
+
+.controller('meldingLarerCtrl', function($scope) {
+
+})
+
+.controller('meldingElevCtrl', function($scope) {
+
+})

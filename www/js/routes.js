@@ -64,6 +64,19 @@ angular.module('app.routes', [])
     controller: 'sOSCtrl'
   })
 
+  .state('meldingLarer', {
+    url: '/page12',
+    templateUrl: 'templates/meldingLarer.html',
+    controller: 'meldingLarerCtrl'
+  })
+
+  .state('meldingElev', {
+    url: '/page13',
+    templateUrl: 'templates/meldingElev.html',
+    controller: 'meldingElevCtrl'
+  })
+
+
 $urlRouterProvider.otherwise('/page1')
 
 
